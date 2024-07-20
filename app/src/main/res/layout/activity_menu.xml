@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kampus"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/txtItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="5dp"
+        android:shadowColor="@color/black"
+        android:text="Item"
+        android:textColor="#C5DFA5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProduct" />
+
+    <TextView
+        android:id="@+id/txtFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="73dp"
+        android:shadowColor="@color/black"
+        android:text="Favorite"
+        android:textColor="#C5DFA5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMove" />
+
+    <TextView
+        android:id="@+id/txtBiodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="5dp"
+        android:shadowColor="@color/black"
+        android:text="Biodata"
+        android:textColor="#C5DFA5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBiodata" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="83dp"
+        android:shadowColor="@color/black"
+        android:text="Logout"
+        android:textColor="#C5DFA5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
+
+    <ImageView
+        android:id="@+id/btnProduct"
+        android:layout_width="76dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/product" />
+
+    <ImageView
+        android:id="@+id/btnMove"
+        android:layout_width="75dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/favorite" />
+
+    <ImageView
+        android:id="@+id/btnBiodata"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem"
+        app:srcCompat="@drawable/biodata" />
+
+    <ImageView
+        android:id="@+id/btnLogout"
+        android:layout_width="75dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/logout" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="242dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="165dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hello" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
